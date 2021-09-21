@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+.blanco {
+  color: white;
+}
+.contenedor {
+  text-shadow: 0 0 2px, 0 0 4px;
+  font-weight: bold;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  width: 96%;
+  height: 96%;
+  margin: auto;
+  cursor: pointer;
+  transition: 1s;
+}
+#rojo {
+  background: red;
+  box-shadow: 0 0 3px red, 0 0 6px red, 0 0 9px red;
+  filter: brightness(85%);
+}
+#azul {
+  background: lightskyblue;
+  box-shadow: 0 0 4px lightskyblue, 0 0 6px lightskyblue, 0 0 9px lightskyblue;
+  filter: brightness(85%);
+}
+#amarillo {
+  background: yellow;
+  box-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow;
+  filter: brightness(85%);
+}
+#verde {
+  background: green;
+  box-shadow: 0 0 3px green, 0 0 6px green, 0 0 9px green;
+  filter: brightness(85%);
+}
+#anaranjado {
+  background: orange;
+  box-shadow: 0 0 3px orange, 0 0 6px orange, 0 0 9px orange;
+  filter: brightness(85%);
+}
+#morado {
+  background: blueviolet;
+  box-shadow: 0 0 3px blueviolet, 0 0 6px blueviolet, 0 0 9px blueviolet;
+  filter: brightness(85%);
+}
+#balnco {
+  background: white;
+  box-shadow: 0 0 3px white, 0 0 6px white, 0 0 9px white;
+  filter: brightness(85%);
+}
+#negro {
+  background: black;
+  box-shadow: 0 0 3px black, 0 0 6px black, 0 0 9px black;
+  filter: brightness(85%);
+}
+#rojo:hover, #azul:hover, #amarillo:hover, #verde:hover, #anaranjado:hover, #morado:hover, #blanco:hover, #negro:hover {
+    font-size: 50px;
+    filter: brightness(100%);
+    transition: 1s;
+  }
